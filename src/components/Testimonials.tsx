@@ -51,7 +51,7 @@ const Testimonials = () => {
           </div>
           <div className="relative h-48 overflow-hidden">
             <img
-              src="https://ik.imagekit.io/f9opvmhvz/photo_10.jpg?updatedAt=1751153071873"
+              src="https://ik.imagekit.io/f9opvmhvz/Photo_10.PNG?updatedAt=1753846274834"
               alt="Beach  elopement"
               className="w-full h-full object-cover"
             />
