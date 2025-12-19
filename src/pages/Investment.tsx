@@ -10,7 +10,7 @@ const Investment = () => {
         "Print Release, Ability To Print From Any Store"
       ],
       destination: "Additional Fees Apply for Destination Travel Costs",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_29_DP3dc-15-?updatedAt=1751686835465"
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_29.png"
     },
     {
       title: "Elopements",
@@ -22,7 +22,7 @@ const Investment = () => {
         "Print Release, Ability To Print From Any Store"
       ],
       destination: "Additional Fees Apply for Destination Travel Costs",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_22.PNG?updatedAt=1751640790578"
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_22.png"
     },
     {
       title: "The Golden Hour Wedding Collection",
@@ -34,7 +34,7 @@ const Investment = () => {
         "Print Release, Ability To Print From Any Store"
       ],
       destination: "Additional Fees Apply for Destination Travel Costs",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_30.PNG?updatedAt=1751687184297"
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_30.png"
     },
     {
       title: "The Storytelling Wedding Collection",
@@ -46,7 +46,7 @@ const Investment = () => {
         "Print Release, Ability To Print From Any Store"
       ],
       destination: "Additional Fees Apply for Destination Travel Costs",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_41.PNG?updatedAt=1752031532399"
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_131.png"
     },
     {
       title: "The Signature Wedding Collection",
@@ -58,7 +58,7 @@ const Investment = () => {
         "Print Release, Ability To Print From Any Store"
       ],
       destination: "Additional Fees Apply for Destination Travel Costs",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_32.PNG?updatedAt=1752027190888"
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_32.png"
     }
   ]
 
@@ -111,7 +111,7 @@ const Investment = () => {
             </div>
             <div className="relative">
               <img
-                src="https://ik.imagekit.io/f9opvmhvz/Photo_47.jpg?updatedAt=1752031784285"
+                src="https://ik.imagekit.io/f9opvmhvz/Photo_47.png"
                 alt="Romantic wedding photography"
                 className="w-full h-96 object-cover rounded-lg"
               />
@@ -245,8 +245,8 @@ const Investment = () => {
 
             <div>
               <img
-                src="https://ik.imagekit.io/f9opvmhvz/Photo_23.PNG?updatedAt=1751641943497"
-                alt="All inclusive elopement"
+                src="https://ik.imagekit.io/f9opvmhvz/Photo_23.png?updatedAt=1766125374486"
+                alt="Family Photos"
                 className="w-full h-96 object-cover rounded-lg"
               />
             </div>
@@ -294,12 +294,12 @@ const Investment = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-1 mb-12">
             <img
-              src="https://ik.imagekit.io/f9opvmhvz/Photo_66.PNG?updatedAt=1752106773444"
-              alt="Wedding transparency"
+              src="https://ik.imagekit.io/f9opvmhvz/Photo_66.png"
+              alt="Wedding dance"
               className="w-full h-64 object-cover"
             />
             <img
-              src="https://ik.imagekit.io/f9opvmhvz/Photo_67.PNG?updatedAt=1752106773484"
+              src="https://ik.imagekit.io/f9opvmhvz/Photo_67.png"
               alt="Documentary wedding photography"
               className="w-full h-64 object-cover"
             />

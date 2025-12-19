@@ -78,15 +78,15 @@ const Contact = () => {
             <div className="grid grid-cols-2 gap-1">
               <div className="relative h-100 overflow-hidden">
                 <img
-                  src="https://ik.imagekit.io/f9opvmhvz/Photo_61.PNG?updatedAt=1752106409465"
-                  alt="Castle wedding photography"
+                  src="https://ik.imagekit.io/f9opvmhvz/Photo_61.png"
+                  alt="City Wedding"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="relative h-100 overflow-hidden">
                 <img
-                  src="https://ik.imagekit.io/f9opvmhvz/Photo_90.PNG?updatedAt=1752110192839"
-                  alt="Beach engagement session"
+                  src="https://ik.imagekit.io/f9opvmhvz/Photo_90.png"
+                  alt="City Wedding 2"
                   className="w-full h-full object-cover"
                 />
               </div>

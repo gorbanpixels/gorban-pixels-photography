@@ -57,15 +57,15 @@ const FAQ = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-1 mt-16">
           <div className="relative h-96 overflow-hidden">
             <img
-              src="https://ik.imagekit.io/f9opvmhvz/Photo_105.PNG?updatedAt=1752115903661"
+              src="https://ik.imagekit.io/f9opvmhvz/Photo_105.png"
               alt="Family Photo Children shots"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="relative h-96 overflow-hidden">
             <img
-              src="https://ik.imagekit.io/f9opvmhvz/styled-shoot-1-3.jpg?updatedAt=1751153074466"
-              alt="Grandma & Grand daughter"
+              src="https://ik.imagekit.io/f9opvmhvz/Photo_128.png"
+              alt="Grandma & Grandson"
               className="w-full h-full object-cover"
             />
           </div>

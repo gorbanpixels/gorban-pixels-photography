@@ -1,23 +1,24 @@
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Dennis & Angela",
+      name: "Katie & Jason",
       date: "November 11, 2024",
       text: "We’re so grateful we chose Andray & Anastasiya to capture our day at the Florida Botanical Gardens. Everything felt natural and relaxed, and they caught moments we’ll cherish forever.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_14.PNG?updatedAt=1751639269097"
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_14.png"
     },
     {
-      name: "Andriy & Angelina",
-      date: "June 19, 2024",
-      text: "Working with Gorban Pixels for our couple shoot was an amazing experience. They made us feel comfortable from the start, and their relaxed, genuine energy made everything feel effortless. You can truly see their passion and care in every photo.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_13.PNG?updatedAt=1751639270199"
-    },
-    {
-      name: "Esther",
+      name: "Rachael",
       date: "May 20, 2025",
       text: "I came across Gorban Pixels while searching locally, and from the very first email, I knew I was in good hands. Booking was super easy, they replied quickly, and made the whole shoot feel relaxed and fun.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_15.PNG?updatedAt=1751639270071"
-    }
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_15.png"
+    },
+    {
+      name: "Emily & Eric",
+      date: "June 19, 2024",
+      text: "Working with Gorban Pixels for our couple shoot was an amazing experience. They made us feel comfortable from the start, and their relaxed, genuine energy made everything feel effortless. You can truly see their passion and care in every photo.",
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_13.png"
+    },
+  
   ]
 
   return (
@@ -37,29 +38,29 @@ const Testimonials = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-1 mb-16">
           <div className="relative h-48 overflow-hidden">
             <img
-              src="https://ik.imagekit.io/f9opvmhvz/photo_11.jpg?updatedAt=1751153074553"
-              alt="Bridal Crew"
+              src="https://ik.imagekit.io/f9opvmhvz/Photo_11.png"
+              alt="Grandpa and Grandma"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="relative h-48 overflow-hidden">
             <img
-              src="https://ik.imagekit.io/f9opvmhvz/styled-shoot-1-1.jpg?updatedAt=1751153073468"
+              src="https://ik.imagekit.io/f9opvmhvz/Photo_129.png"
               alt="Grandpa and Grand Daughter"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="relative h-48 overflow-hidden">
             <img
-              src="https://ik.imagekit.io/f9opvmhvz/photo_10.jpg?updatedAt=1751153071873"
-              alt="Beach  elopement"
+              src="https://ik.imagekit.io/f9opvmhvz/Photo_10.png"
+              alt="Family Photo"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="relative h-48 overflow-hidden">
             <img
-              src="https://ik.imagekit.io/f9opvmhvz/styled-shoot-1-4.jpg?updatedAt=1751153074503"
-              alt="Husband and Wife Joyfully Walking"
+              src="https://ik.imagekit.io/f9opvmhvz/Photo_130.png?updatedAt=1766127739406"
+              alt="Husband and Wife with Joyful Daughter"
               className="w-full h-full object-cover"
             />
           </div>

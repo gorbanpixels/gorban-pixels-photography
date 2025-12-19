@@ -1,0 +1,30 @@
+f69f17- orange
+ead057-yellow
+
+
+AIzaSyB5jpM69jE4ktYbJAB_G5CIdVGlbXszmwE
+
+
+  self.business_name = "Gorban Pixels"  # Your exact business name
+        self.website_url = "https://gorbanpixels.com/"  # Your website
+        self.service_area = "Tampa, FL"  # Your service area
+        self.service_type = "photographer"  # e.g., "Photographer", "Plumber", etc.
+
+
+
+
+        # Configuration - EDIT THESE VALUES
+        self.business_name = "Belleair Country Club"  # Your exact business name
+        self.website_url = "https://www.belleaircc.com/"  # Your website
+        self.service_area = "Tampa, FL"  # Your service area
+        self.service_type = "Country club"  # e.g., "Photographer", "Plumber", etc.
+
+
+
+https://www.cognitoforms.com/Hireology3/ArbitrationAgreement *
+Are you 18 years or older?
+Yes
+Have ever been convicted of a felony?
+No
+Having an issue with this application? 
+This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.

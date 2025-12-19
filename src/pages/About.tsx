@@ -20,19 +20,19 @@ const About = () => {
     {
       title: "Elope in Tampa FL | The ULTIMATE How-To Guide",
       excerpt: "A thoughtful guide to eloping in Tampa—featuring the best micro-venues, BnBs, and planning tips for a relaxed and romantic day.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_19.PNG?updatedAt=1751640224135",
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_17.png?updatedAt=1766124581703",
       href: "/blog/elope-in-tampa-fl"
     },
     {
       title: "Top 2025 Wedding Trends That Will Blow You Away",
       excerpt: "Discover the most exciting wedding trends for 2025 that couples are embracing for their special day.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_16.PNG?updatedAt=1751639835777",
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_16.png",
       href: "/blog/2025-wedding-trends"
     },
     {
       title: "Florida Botanical Gardens: Wedding Photos & Cost",
       excerpt: "Everything you need to know about getting married at the beautiful Florida Botanical Gardens.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_31.PNG?updatedAt=1752026807704",
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_31.png?updatedAt=1766114727409",
       href: "/blog/florida-botanical-gardens-wedding-photos-cost"
     }
   ]
@@ -114,7 +114,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
               <img
-                src="https://ik.imagekit.io/f9opvmhvz/Photo_47.PNG?updatedAt=1752032162292"
+                src="https://ik.imagekit.io/f9opvmhvz/Photo_121.png"
                 alt="Documentary wedding photographer at work"
                 className="w-full h-96 object-cover rounded-lg"
               />
@@ -203,8 +203,8 @@ const About = () => {
             <div className="text-center">
               <div className="relative h-64 mb-8 overflow-hidden rounded-full">
                 <img
-                  src="https://ik.imagekit.io/f9opvmhvz/Photo_26.PNG?updatedAt=1751644704774"
-                  alt="Family life"
+                  src="https://ik.imagekit.io/f9opvmhvz/Photo_26.png"
+                  alt="Family life in Clearwater"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -217,8 +217,8 @@ const About = () => {
             <div className="text-center">
               <div className="relative h-64 mb-8 overflow-hidden rounded-full">
                 <img
-                  src="https://ik.imagekit.io/f9opvmhvz/Photo_27.PNG?updatedAt=1751653669226"
-                  alt="Travel and exploration"
+                  src="https://ik.imagekit.io/f9opvmhvz/Photo_27.png?updatedAt=1766129304446"
+                  alt="Downtown Vibes"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -231,8 +231,8 @@ const About = () => {
             <div className="text-center">
               <div className="relative h-64 mb-8 overflow-hidden rounded-full">
                 <img
-                  src="https://ik.imagekit.io/f9opvmhvz/Photo_25.PNG?updatedAt=1751645137602"
-                  alt="Creative projects"
+                  src="https://ik.imagekit.io/f9opvmhvz/Photo_25.png"
+                  alt="Mother and Daughers Bonding on the Beach"
                   className="w-full h-full object-cover"
                 />
               </div>

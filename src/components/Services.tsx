@@ -3,17 +3,17 @@ const Services = () => {
     {
       title: "Raw Feelings",
       description: "We focus on being documentary style photographers with an aproach that is all about storytelling—capturing the raw, unfiltered emotions that make your moments unforgettable. We’re here for the real laughter, the happy tears, and the kind of fun that makes you forget the camera is even there. No stiff poses, no forced smiles, just you, fully present, embracing every second! We will laugh until we cry, have too much fun, forget our insecurities, and exist in the moment!",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_30.PNG?updatedAt=1751687184297"
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_30.png"
     },
     {
       title: "Authenticity",
       description: "We’re not here to copy and paste trends, we’re here to create something that’s uniquely you! Feel free to share your inspiration, but think of it as just a starting point. Your story, your emotions, and your energy will shape every shot, making your photos one of a kind. Yes, we can capture Pinterest worthy moments, but they’ll be authentically yours!",
-      image: "https://ik.imagekit.io/f9opvmhvz/img-10_4tOvazzE1?updatedAt=1751221387758"
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo-126.png"
     },
     {
       title: "Spontaneity & Romance",
       description: "Think of your session as the ultimate romance film, one that’s destined for the big screen! Let’s go all out, embrace the drama, and create something unforgettable. This is your story, your moment! So bring your personality, be unapologetically you, and let’s turn it into something beautiful!",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_5_DI5iXWUkG?updatedAt=1751221571368"
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_127.png"
     }
   ]
 
@@ -24,15 +24,15 @@ const Services = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-1 mb-20">
           <div className="relative h-96 overflow-hidden">
             <img
-              src="https://ik.imagekit.io/f9opvmhvz/Photo_68.PNG?updatedAt=1752107340732"
-              alt="Outdoor Wedding photography"
+              src="https://ik.imagekit.io/f9opvmhvz/Photo_125.png"
+              alt="Botanical Gardens Wedding 1"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="relative h-96 overflow-hidden">
             <img
-              src="https://ik.imagekit.io/f9opvmhvz/Photo_72.PNG?updatedAt=1752107336835"
-              alt="Botanical Gardens Wedding"
+              src="https://ik.imagekit.io/f9opvmhvz/Photo_124.png"
+              alt="Botanical Gardens Wedding 2"
               className="w-full h-full object-cover"
             />
           </div>

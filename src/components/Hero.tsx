@@ -5,14 +5,14 @@ const Hero = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-1">
         <div className="relative h-96 md:h-[600px] overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+            src="https://ik.imagekit.io/f9opvmhvz/Photo_123.png"
             alt="Wedding ceremony destination"
             className="w-full h-full object-cover"
           />
         </div>
         <div className="relative h-96 md:h-[600px] overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+            src="https://ik.imagekit.io/f9opvmhvz/Photo_122.png?updatedAt=1766118049979"
             alt="Beach Elopement w/Palms"
             className="w-full h-full object-cover"
           />

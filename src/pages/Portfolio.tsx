@@ -137,11 +137,11 @@ const Portfolio = () => {
           {/* Instagram Grid */}
           <div className="grid grid-cols-2 md:grid-cols-5 gap-1 mb-8">
             {[
-              "https://ik.imagekit.io/f9opvmhvz/Photo_56.PNG?updatedAt=1752105288249",
-              "https://ik.imagekit.io/f9opvmhvz/Photo_49.PNG?updatedAt=1752105291786",
-              "https://ik.imagekit.io/f9opvmhvz/Photo_50.PNG?updatedAt=1752105287091",
-              "https://ik.imagekit.io/f9opvmhvz/Photo_92.PNG?updatedAt=1752114718629",
-              "https://ik.imagekit.io/f9opvmhvz/Photo_93.PNG?updatedAt=1752114720283"
+              "https://ik.imagekit.io/f9opvmhvz/Photo_56.png",
+              "https://ik.imagekit.io/f9opvmhvz/Photo_49.png",
+              "https://ik.imagekit.io/f9opvmhvz/Photo_50.png",
+              "https://ik.imagekit.io/f9opvmhvz/Photo_92.png",
+              "https://ik.imagekit.io/f9opvmhvz/Photo_93.png"
             ].map((image, index) => (
               <div key={index} className="relative h-48 overflow-hidden">
                 <a href="https://instagram.com/gorbanpixels" target="_blank" rel="noopener noreferrer">

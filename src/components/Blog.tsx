@@ -4,42 +4,42 @@ const Blog = () => {
       title: "Editorial Vibes in Tampa",
       date: "June 21, 2025",
       excerpt: "Trends fade, but the editorial look is timeless. It turns your story into bold, magazine-worthy moments—perfect for weddings or couples shoots in Tampa.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_19.PNG?updatedAt=1751640224135",
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_19.png",
       href: "/blog/editorial-vibes-in-tampa"
     },
     {
       title: "Elope in Tampa FL | The ULTIMATE How-To Guide",
       date: "Apr 11, 2025",
       excerpt: "A thoughtful guide to eloping in Tampa, featuring the best micro-venues, BnBs, and planning tips for a relaxed and romantic day. ",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_17.PNG?updatedAt=1751640222278",
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_17.png?updatedAt=1766124581703",
       href: "/blog/elope-in-tampa-fl"
     },
     {
       title: "Top 2025 Wedding Trends That Will Blow You Away",
       date: "Feb 20, 2025",
       excerpt: "Discover the most exciting wedding trends for 2025 that couples are embracing for their special day.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_16.PNG?updatedAt=1751639835777",
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_16.png",
       href: "/blog/2025-wedding-trends"
     },
     {
       title: "Florida Botanical Gardens: Wedding Photos & Cost",
       date: "Nov 8, 2024",
       excerpt: "Everything you need to know about getting married at the beautiful Florida Botanical Gardens.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_31.PNG?updatedAt=1752026807704",
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_31.png?updatedAt=1766114727409",
       href: "/blog/florida-botanical-gardens-wedding-photos-cost"
     },
     {
       title: "Rehearsal Dinner & Reception Venues in Tampa, FL",
       date: "Aug 18, 2024",
       excerpt: "The most beautiful and affordable venues for your rehearsal dinner.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_21_mJjXxHTuZ?updatedAt=1751640494188",
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_21.png",
       href: "/blog/rehearsal-dinner-venues-tampa-fl"
     },
     {
       title: "Tampa Bay Family Photography Guide",
       date: "Aug 5, 2024",
       excerpt: "Your complete guide to planning for a Family shoot in the Tampa Bay area.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_23.PNG?updatedAt=1751641943497",
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_23.png?updatedAt=1766125374486",
       href: "/blog/tampa-courthouse-wedding-guide"
     }
   ]
