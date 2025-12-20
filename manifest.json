@@ -1,0 +1,16 @@
+{
+  "name": "Gorban Pixels Photography",
+  "short_name": "Gorban Pixels",
+  "description": "Professional wedding photography in Tampa, Florida",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
