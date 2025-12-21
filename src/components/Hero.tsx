@@ -6,14 +6,14 @@ const Hero = () => {
         <div className="relative h-96 md:h-[600px] overflow-hidden">
           <img
             src="https://ik.imagekit.io/f9opvmhvz/Photo_123.png"
-            alt="Wedding ceremony destination"
+            alt="Beach wedding 1"
             className="w-full h-full object-cover"
           />
         </div>
         <div className="relative h-96 md:h-[600px] overflow-hidden">
           <img
             src="https://ik.imagekit.io/f9opvmhvz/Photo_122.png?updatedAt=1766118049979"
-            alt="Beach Elopement w/Palms"
+            alt="Beach wedding 2"
             className="w-full h-full object-cover"
           />
         </div>
@@ -22,9 +22,12 @@ const Hero = () => {
       {/* Feature Image */}
       <div className="relative h-64 md:h-96 overflow-hidden mt-1">
         <img
-          src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
-          alt="Beach Elopement"
+          src="https://ik.imagekit.io/f9opvmhvz/Photo_149.png"
+          alt="Beach wedding 3"
           className="w-full h-full object-cover"
+          loading="eager"
+          decoding="async"
+          
         />
       </div>
 

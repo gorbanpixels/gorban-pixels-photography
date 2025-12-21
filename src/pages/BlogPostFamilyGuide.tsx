@@ -8,7 +8,7 @@ const BlogPostFamilyGuide = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Breadcrumb */}
           <nav className="mb-8">
-            <Link to="/" className="text-gray-600 hover:text-gray-900 transition-colors">
+            <Link to="/homeblog" className="text-gray-600 hover:text-gray-900 transition-colors">
              ← Back to Blog
             </Link>
           </nav>

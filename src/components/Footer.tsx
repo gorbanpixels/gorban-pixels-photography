@@ -40,20 +40,20 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-medium mb-4">Services</h3>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="/investment" className="hover:text-white transition-colors">Wedding Photography</a></li>
-              <li><a href="/investment" className="hover:text-white transition-colors">Engagement Sessions</a></li>
-              <li><a href="/investment" className="hover:text-white transition-colors">Destination Weddings</a></li>
-              <li><a href="/investment" className="hover:text-white transition-colors">Event Packages</a></li>
-              <li><a href="/investment" className="hover:text-white transition-colors">Portrait Packages</a></li>
+              <li><a href="/investment#signature" className="hover:text-white transition-colors">Wedding Photography</a></li>
+              <li><a href="/investment#engagements" className="hover:text-white transition-colors">Engagement Sessions</a></li>
+              <li><a href="/investment#elopements" className="hover:text-white transition-colors">Destination Weddings</a></li>
+              <li><a href="/investment#add-ons" className="hover:text-white transition-colors">Event Packages</a></li>
+              <li><a href="/investment#family-portraits" className="hover:text-white transition-colors">Family Packages</a></li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-medium mb-4">Resources</h3>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="/blog/local-insider-tips-budget-friendly-tampa-micro-wedding" className="hover:text-white transition-colors">Micro Wedding Planning Guide</a></li>
-              <li><a href="/blog/elope-in-tampa-fl" className="hover:text-white transition-colors">Elopement How-To Guide</a></li>
-              <li><a href="/blog/tampa-courthouse-wedding-guide" className="hover:text-white transition-colors">Family Photography Guide Directory</a></li>
+              <li><a href="/blog/anniversary-photoshoot-unforgettable" className="hover:text-white transition-colors">Anniversary Photoshoot</a></li>
+              <li><a href="/blog/wedding-prep-tampa-fl" className="hover:text-white transition-colors">Wedding How-To Guide</a></li>
+              <li><a href="/blog/tampa-family-guide" className="hover:text-white transition-colors">Family Photography Guide Directory</a></li>
             </ul>
           </div>
 

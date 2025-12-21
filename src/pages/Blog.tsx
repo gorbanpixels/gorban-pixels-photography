@@ -2,103 +2,69 @@ const Blog = () => {
   const blogPosts = [
     {
       title: "Editorial Vibes in Tampa",
-      date: "6/21/25",
+      date: "11/23/24",
       category: [],
-      excerpt: "New trends in wedding photography come and go, but we believe the editorial aesthetic is timeless. It turns your love story into something that feels straight out of a fashion magazine—bold, refined, and full of style. Explore the unique editorial photography opportunities Tampa has to offer.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_33?updatedAt=1752028284688",
+      excerpt: "New trends in wedding photography come and go, but we believe the editorial aesthetic is timeless. It turns your love story into something that feels straight out of a fashion magazine thats bold, refined, and full of style. Explore the unique editorial photography opportunities Tampa has to offer.",
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_33.png?updatedAt=1766202129671",
       href: "/blog/editorial-vibes-in-tampa"
     },
+
     {
-      title: "Insider Advice for Planning a Stylish Yet Affordable Micro Wedding in Downtown Tampa",
-      date: "5/26/25",
-      category: [],
-      excerpt: "Are you dreaming of an intimate and affordable micro wedding in the vibrant city of Tampa? Look no further. In this article, we're about to share insider tips and tricks that will help you create an unforgettable and authentic celebration right in the heart of downtown Tampa.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_47.PNG?updatedAt=1752032162292",
-      href: "/blog/local-insider-tips-budget-friendly-tampa-micro-wedding"
-    },
-    {
-      title: "Elope in Tampa FL | The ULTIMATE How-To Guide",
-      date: "4/11/25",
-      category: ["Planning", "Elopements"],
+      title: "Wedding Prep Made Simple | The ULTIMATE How-To Guide",
+      date: "12/20/24",
+      category: ["Planning", "Weddings"],
       excerpt: "You chose to run away together and get married in gorgeous vibrant Tampa! This is grounds for a celebration! Now you are faced with rules, paperwork, and planning. This article is to help you plan an elopement in our beautiful city that is budget friendly and feels like YOU. The importance of recording one of the biggest days in your relationship cannot be overstated, so this guide will also help with logistics of wedding photography.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_19.PNG?updatedAt=1751640224135",
-      href: "/blog/elope-in-tampa-fl"
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_39.png?updatedAt=1766202262863",
+      href: "/blog/wedding-prep-tampa-fl"
     },
     {
       title: "Fall in Love with the Beauty of Eloping at Fort De Soto",
-      date: "4/5/25",
-      category: [],
-      excerpt: "Are you envisioning an elopement that feels fresh, intimate, and surrounded by nature’s beauty? Fort De Soto Park offers a truly unforgettable setting—where historic charm meets pristine beaches and sweeping coastal views for a romantic, one-of-a-kind experience.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_39.PNG?updatedAt=1752030999681",
+      date: "2/5/25",
+      category: ["Planning","Elopements"],
+      excerpt: "Are you envisioning an elopement that feels fresh, intimate, and surrounded by nature’s beauty? Fort De Soto Park offers a truly unforgettable setting, where historic charm meets pristine beaches and sweeping coastal views for a romantic, one-of-a-kind experience.",
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_39.png",
       href: "/blog/escape-convention-fort-desoto-elopement"
     },
     {
       title: "Top 2025 Wedding Trends That Will Blow You Away",
-      date: "2/20/25",
+      date: "4/11/25",
       category: [],
       excerpt: "New year, new trends? This year, it really seems like 2025 is redefining \"what's old is new\" with classic styles coming in hot. And the trends you will see most are going beyond the traditional walk down the aisle. Are you getting married this year? Here's what to expect in 2025.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_16.PNG?updatedAt=1751639835777",
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_16.png?updatedAt=1766124758936",
       href: "/blog/2025-wedding-trends"
     },
     {
       title: "Why a Photoshoot Is the Perfect Way to Celebrate Your One-Year Anniversary",
-      date: "1/23/25",
-      category: [],
-      excerpt: "Looking for a meaningful way to celebrate your first year of marriage? An anniversary photoshoot can turn your milestone into more than just a night out—it becomes a lasting experience filled with connection, joy, and memories you’ll cherish for years to come.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_34.PNG?updatedAt=1752028103143",
+      date: "6/21/25",
+      category: ["Anniversary"],
+      excerpt: "Looking for a meaningful way to celebrate your first year of marriage? An anniversary photoshoot can turn your milestone into more than just a night out, it becomes a lasting experience filled with connection, joy, and memories you’ll cherish for years to come.",
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_34.png?updatedAt=1766202478625",
       href: "/blog/anniversary-photoshoot-unforgettable"
     },
     {
       title: "Florida Botanical Gardens: Wedding Photos & Cost",
-      date: "11/8/24",
+      date: "8/5/25",
       category: [],
       excerpt: "The Florida Botanical Gardens is a gorgeously lush unique venue in the Tampa Bay area that has a lot to offer to a couple looking for a Tampa elopement that has both natural beauty and garden elements and is reasonably priced. This guide lays out the logistics and cost of having a ceremony there with a focus on getting you the best wedding photos.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_31.PNG?updatedAt=1752026807704",
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_31.png?updatedAt=1766114727409",
       href: "/blog/florida-botanical-gardens-wedding-photos-cost"
     },
     {
-      title: "Tampa Bay Family Photography Guide",
-      date: "8/5/24",
-      category: [],
-      excerpt: "Your go-to guide for planning a meaningful and stress-free family photo session in the Tampa Bay area—so you can focus on making memories that last.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_105.PNG?updatedAt=1752115903661",
-      href: "/blog/tampa-courthouse-wedding-guide"
-    }
-    
-    /*{
-      title: "Personalize Your Engagement Photoshoot Like Never Before",
-      date: "5/19/25",
-      category: [],
-      excerpt: "Are you tired of scrolling through engagement photos that all look the same? You know the ones: the loving couple in a picturesque field, holding hands and staring into each other's eyes. Well, get ready to break free from the mold and create a truly unique and personalized engagement photoshoot like never before. In this article, we will show you how to unleash your creativity, incorporate meaningful elements and locations, and add a touch of adventure to make your session one-of-a-kind.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_32.PNG?updatedAt=1752027190888",
-      href: "/blog/personalize-your-engagement-photoshoot"
-    },*/
-    /*{
-      title: "Elevate Your Bridal Portraits with an After-Elopement Visit to Tampa's Armature Works",
-      date: "6/5/25",
-      category: [],
-      excerpt: "Are you tired of the same old conventional bridal portraits? Looking to add a touch of uniqueness and personalization to your special day? Enter Tampa's Armature Works, a hidden gem that is the perfect setting for after-elopement photos.",
-      image: "https://ext.same-assets.com/3287588329/2591829067.jpeg",
-      href: "/blog/break-tradition-ice-plant-restaurant"
-    },*/
-    
-    /*{
-      title: "Affordable Elopement Planning & Photography Package in Tampa, Florida",
-      date: "6/21/25",
-      category: [],
-      excerpt: "Imagine your dream day in Tampa that matches your vision and does not break the bank. My All-Inclusive Tampa Elopement Package is like a magic wand bringing together the talents of multiple local vendors. This package isn't just about services; it's a symphony of talent.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_17.PNG?updatedAt=1751640222278",
-      href: "/blog/all-inclusive-affordable-elopement-planning"
-    },*/
-    /*,
+      title: "Rehearsal Dinner & Reception Venues",
+      date: "8/31/25",
+      category: ["Rehearsal"],
+      excerpt: "The most beautiful and affordable venues for your rehearsal dinner. What to expect with our photography packages",
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_21.png?updatedAt=1766125001802",
+      href: "/blog/rehearsal-dinner-venues-tampa-fl"
+    },
     {
-      title: "Why Hiring a Social Content Creator Will Make Your Wedding Unforgettable",
-      date: "1/22/25",
-      category: [],
-      excerpt: "Imagine stunning photos PLUS quick videos, capturing every memorable moment, and effortlessly creating engaging content for your social media. How can you achieve this? By hiring a professional social content creator. It's the perfect addition to your wedding photography package!",
-      image: "https://images.unsplash.com/photo-1529636744336-16bb8f39810d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      href: "#"
-    }*/
+      title: "Tampa Bay Family Photography Guide",
+      date: "11/8/25",
+      category: ["Family"],
+      excerpt: "Your go-to guide for planning a meaningful and stress-free family photo session in the Tampa Bay area, so you can focus on making memories that last.",
+      image: "https://ik.imagekit.io/f9opvmhvz/Photo_105.png?updatedAt=1766125712718",
+      href: "/blog/tampa-family-guide"
+    }
   ]
 
   return (
@@ -200,11 +166,11 @@ const Blog = () => {
           {/* Instagram Grid */}
           <div className="grid grid-cols-2 md:grid-cols-5 gap-1 mb-8">
             {[
-              "https://ik.imagekit.io/f9opvmhvz/Photo_27.PNG?updatedAt=1751653669226",
-              "https://ik.imagekit.io/f9opvmhvz/Photo_13.PNG?updatedAt=1751639270199",
-              "https://ik.imagekit.io/f9opvmhvz/Photo_29_DP3dc-15-?updatedAt=1751686835465",
-              "https://ik.imagekit.io/f9opvmhvz/Photo_22.PNG?updatedAt=1751640790578",
-              "https://ik.imagekit.io/f9opvmhvz/Photo_40.PNG?updatedAt=1752031533704"
+              "https://ik.imagekit.io/f9opvmhvz/Photo_142.png",
+              "https://ik.imagekit.io/f9opvmhvz/Photo_144.png",
+              "https://ik.imagekit.io/f9opvmhvz/Photo_143.png",
+              "https://ik.imagekit.io/f9opvmhvz/Photo_85.png",
+              "https://ik.imagekit.io/f9opvmhvz/Photo_140.png"
             ].map((image, index) => (
               <div key={index} className="relative h-48 overflow-hidden">
                 <a href="https://instagram.com/gorbanpixels" target="_blank" rel="noopener noreferrer">

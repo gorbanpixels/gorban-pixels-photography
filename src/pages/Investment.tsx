@@ -1,6 +1,7 @@
 const Investment = () => {
   const packages = [
     {
+      id: "engagements",
       title: "Engagements & Couples Sessions",
       location: "Central Florida",
       price: "$350",
@@ -13,6 +14,7 @@ const Investment = () => {
       image: "https://ik.imagekit.io/f9opvmhvz/Photo_29.png"
     },
     {
+      id: "elopements",
       title: "Elopements",
       location: "Tampa Bay Area",
       price: "$800",
@@ -25,6 +27,7 @@ const Investment = () => {
       image: "https://ik.imagekit.io/f9opvmhvz/Photo_22.png"
     },
     {
+      id: "golden-hour",
       title: "The Golden Hour Wedding Collection",
       location: "Central Florida",
       price: "$2500",
@@ -37,6 +40,7 @@ const Investment = () => {
       image: "https://ik.imagekit.io/f9opvmhvz/Photo_30.png"
     },
     {
+      id: "storytelling",
       title: "The Storytelling Wedding Collection",
       location: "Central Florida",
       price: "$3500",
@@ -49,6 +53,7 @@ const Investment = () => {
       image: "https://ik.imagekit.io/f9opvmhvz/Photo_131.png"
     },
     {
+      id: "signature",
       title: "The Signature Wedding Collection",
       location: "Central Florida",
       price: "$3500",
@@ -191,7 +196,7 @@ const Investment = () => {
       </section>
 
       {/* Add-ons Section */}
-      <section className="bg-gray-50 py-20">
+      <section id="add-ons" className="bg-gray-50 py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-light text-gray-900 text-center mb-16">
             Enhance Your Experience with These Add-On Services:
@@ -219,7 +224,7 @@ const Investment = () => {
       </section>
 
       {/* All Inclusive Package */}
-      <section className="py-20">
+      <section id="family-portraits" className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
@@ -255,7 +260,7 @@ const Investment = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="bg-gray-50 py-20">
+      <section id="faqs" className="bg-gray-50 py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-light text-gray-900 text-center mb-16">
             Frequently Asked Questions & Answers

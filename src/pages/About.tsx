@@ -252,7 +252,7 @@ const About = () => {
             <h2 className="text-4xl font-medium text-gray-600 mb-4 uppercase tracking-wide">Testimonials</h2>
             <div className="flex justify-center mb-8">
               <img
-                src="https://ik.imagekit.io/f9opvmhvz/Photo_24.PNG?updatedAt=1751642134707"
+                src="https://ik.imagekit.io/f9opvmhvz/Photo_150.png"
                 alt="Featured testimonial"
                 className="w-64 h-48 object-cover rounded-lg"
               />
@@ -261,9 +261,9 @@ const About = () => {
 
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <h3 className="text-2xl font-light text-gray-900 mb-4">Dennis & Angela</h3>
+              <h3 className="text-2xl font-light text-gray-900 mb-4">Emma & Roberto</h3>
               <p className="text-gray-700 leading-relaxed">
-                "Exploring Tampa’s most beautiful locations has never been more exciting! From the historic charm of Ybor City to the tranquil shores of Honeymoon Island, every shoot feels like an adventure. The attention to detail and ability to capture the perfect lighting and angles made my photos truly unforgettable. If you're looking for breathtaking backdrops and a seamless experience, this is it"
+                "Exploring Tampa’s most beautiful locations has never been more exciting! From Ybor to Honeymoon Island, every shoot feels like an adventure. The attention to detail and ability to capture the perfect lighting and angles made my photos truly unforgettable. If you're looking for a great experience, this is it"
               </p>
             </div>
           </div>

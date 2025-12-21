@@ -8,11 +8,11 @@ const Blog = () => {
       href: "/blog/editorial-vibes-in-tampa"
     },
     {
-      title: "Elope in Tampa FL | The ULTIMATE How-To Guide",
+      title: "Wedding Prep Made Simple | The ULTIMATE How-To Guide",
       date: "Apr 11, 2025",
-      excerpt: "A thoughtful guide to eloping in Tampa, featuring the best micro-venues, BnBs, and planning tips for a relaxed and romantic day. ",
+      excerpt: "A thoughtful guide to having a wedding in he Tampa Bay, featuring the best venues, BnBs, and planning tips for a relaxed and romantic day. ",
       image: "https://ik.imagekit.io/f9opvmhvz/Photo_17.png?updatedAt=1766124581703",
-      href: "/blog/elope-in-tampa-fl"
+      href: "/blog/wedding-prep-tampa-fl"
     },
     {
       title: "Top 2025 Wedding Trends That Will Blow You Away",
@@ -40,7 +40,7 @@ const Blog = () => {
       date: "Aug 5, 2024",
       excerpt: "Your complete guide to planning for a Family shoot in the Tampa Bay area.",
       image: "https://ik.imagekit.io/f9opvmhvz/Photo_23.png?updatedAt=1766125374486",
-      href: "/blog/tampa-courthouse-wedding-guide"
+      href: "/blog/tampa-family-guide"
     }
   ]
 

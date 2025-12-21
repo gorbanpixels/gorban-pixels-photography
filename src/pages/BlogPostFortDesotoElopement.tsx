@@ -12,7 +12,7 @@ const BlogPostFortDesotoElopement = () => {
 
       {/* Category and Date */}
       <div className="mb-6">
-        <p className="text-gray-500 text-sm">Feb 5, 2024 • Written By Gorban Pixels</p>
+        <p className="text-gray-500 text-sm">Feb 5, 2025 • Written By Gorban Pixels</p>
       </div>
 
       {/* Title */}
@@ -24,32 +24,32 @@ const BlogPostFortDesotoElopement = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
         <img
           src="https://ik.imagekit.io/f9opvmhvz/Photo_47.jpg?updatedAt=1752031784285"
-          alt="Fort De Soto Park elopement"
+          alt="Fort DeSoto Park couple running"
           className="w-full h-64 object-cover rounded-lg"
         />
         <img
           src="https://ik.imagekit.io/f9opvmhvz/Photo_41.PNG?updatedAt=1752031532399"
-          alt="Beach wedding ceremony"
+          alt="Beach wedding post-ceremony"
           className="w-full h-64 object-cover rounded-lg"
         />
         <img
           src="https://ik.imagekit.io/f9opvmhvz/Photo_40.PNG?updatedAt=1752031533704"
-          alt="Romantic beach wedding"
+          alt="Romantic kiss"
           className="w-full h-64 object-cover rounded-lg"
         />
         <img
           src="https://ik.imagekit.io/f9opvmhvz/Photo_46.jpg?updatedAt=1752031785227"
-          alt="Coastal elopement photography"
+          alt="Coastal venue photography"
           className="w-full h-64 object-cover rounded-lg"
         />
         <img
           src="https://ik.imagekit.io/f9opvmhvz/Photo_44.jpg?updatedAt=1752031784108"
-          alt="Fort De Soto beach couple"
+          alt="Detail shot of couple"
           className="w-full h-64 object-cover rounded-lg"
         />
         <img
           src="https://ik.imagekit.io/f9opvmhvz/Photo_42.PNG?updatedAt=1752031534012"
-          alt="Historic fort wedding"
+          alt="Wedding celebration with the bridalcrew"
           className="w-full h-64 object-cover rounded-lg"
         />
       </div>
@@ -57,21 +57,21 @@ const BlogPostFortDesotoElopement = () => {
 {/* Content */}
 <div className="prose prose-lg max-w-none">
   <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-    If you're craving a wedding day that feels raw, real, and wildly romantic—far from the ballroom and into the breeze—Fort De Soto Park might just be your perfect escape. This iconic Florida park offers a stunning mix of serene beaches, rich history, and breathtaking scenery that transforms your elopement into a storybook adventure.
+    If you're craving a wedding day that feels raw, real, and wildly romantic, far from the ballroom and into the breeze then Fort De Soto Park might just be your perfect escape. This iconic Florida park offers a stunning mix of serene beaches, rich history, and breathtaking scenery that transforms your elopement into a storybook adventure.
   </p>
 
   <p className="mb-6">
-    Located on five interconnected keys at the mouth of Tampa Bay, Fort De Soto is a haven for couples who want something more intimate, natural, and meaningful. From sugar-white sands to weathered stone walls and wide-open Gulf views, every inch of this place sets the scene for unforgettable vows.
+    Located on five interconnected keys at the mouth of Tampa Bay, Fort De Soto is a haven for couples who want something more intimate, natural, and meaningful. From white sands to weathered stone walls and wide-open Gulf views, every inch of this place sets the scene for unforgettable vows.
   </p>
 
   <h2 className="text-3xl font-light text-gray-900 mb-6">What Makes Fort De Soto Feel Magical</h2>
 
   <p className="mb-6">
-    Eloping here isn’t just about finding a beautiful setting—it’s about choosing meaning. With the Gulf’s horizon as your altar and the echoes of history all around, Fort De Soto speaks to couples who want depth, atmosphere, and something truly different. Every crashing wave and sunlit dune adds poetry to your ceremony.
+    Having a elopement here isn’t just about finding a beautiful setting, it’s about choosing meaning. With the Gulf’s horizon as your altar and the echoes of history all around, Fort De Soto speaks to couples who want depth, atmosphere, and something truly different. Every crashing wave and sunlit dune adds poetry to your ceremony.
   </p>
 
   <p className="mb-6">
-    Say your vows beside the ancient stone fort, where past and present collide, or along the shore, where nothing but nature surrounds you. You’ll share your day with wild birds overhead, sea breeze in your hair, and golden light dancing on the water. This isn’t a venue—it’s a coastal love story waiting to unfold.
+    Say your vows beside the ancient stone fort, where past and present collide, or along the shore, where nothing but nature surrounds you. You’ll share your day with wild birds overhead, sea breeze in your hair, and golden light dancing on the water. This isn’t a venue, it’s a coastal love story waiting to unfold.
   </p>
 
   <div className="bg-gray-50 p-8 rounded-lg mb-12">
@@ -79,7 +79,7 @@ const BlogPostFortDesotoElopement = () => {
     <ul className="space-y-3 text-gray-700">
       <li>• Sweeping views of the Gulf and Tampa Bay</li>
       <li>• Civil War-era fort offering striking, rustic backdrops</li>
-      <li>• A variety of scenic spots—beaches, boardwalks, trails, and historic sites</li>
+      <li>• A variety of scenic spots such as beaches, boardwalks, trails, and historic sites</li>
       <li>• Unmatched sunsets that drench the sky in color</li>
       <li>• Opportunity to spot dolphins, seabirds, and other native wildlife</li>
       <li>• Award-winning beaches that feel secluded and untouched</li>
@@ -89,7 +89,7 @@ const BlogPostFortDesotoElopement = () => {
   <h2 className="text-3xl font-light text-gray-900 mb-6">The Allure of Sunset Vows</h2>
 
   <p className="mb-6">
-    While Fort De Soto is magical at any hour, nothing compares to the golden hour here. As the sun dips below the water, the sky glows with warm hues, casting your ceremony in a dreamlike light. It's the kind of backdrop photographers dream about—and it turns your “I do” into a moment suspended in time.
+    While Fort De Soto is magical at any hour, nothing compares to the golden hour here. As the sun dips below the water, the sky glows with warm hues, casting your ceremony in a dreamlike light. It's the kind of backdrop photographers dream about, and it turns your “I do” into a moment suspended in time.
   </p>
 
   <p className="mb-6">
@@ -99,7 +99,7 @@ const BlogPostFortDesotoElopement = () => {
   <h2 className="text-3xl font-light text-gray-900 mb-6">Planning a Fort De Soto Elopement</h2>
 
   <p className="mb-6">
-    One of the best parts of eloping here is how little you have to do to make it feel special. The setting provides all the romance and atmosphere you need—no arches, no florals, just nature’s raw beauty. All you really need is each other, a camera, and a plan that allows you to soak in every moment.
+    One of the best parts of eloping here is how little you have to do to make it feel special. The setting provides all the romance and atmosphere you need, no arches, no florals, just nature’s raw beauty. All you really need is each other, a camera, and a plan that allows you to soak in every moment.
   </p>
 
   <div className="bg-gray-50 p-8 rounded-lg mb-12">
@@ -107,7 +107,7 @@ const BlogPostFortDesotoElopement = () => {
     <ul className="space-y-3 text-gray-700">
       <li>• Check the tide and weather for ideal timing</li>
       <li>• Secure any required permits from the park authority</li>
-      <li>• Dress comfortably—beach-friendly outfits and wind-ready hair</li>
+      <li>• Dress comfortably (beach-friendly outfits and wind-ready hair)</li>
       <li>• Aim for golden hour if you want cinematic lighting</li>
       <li>• Pack reef-safe sunscreen, bug spray, and water</li>
       <li>• Explore different areas of the park for variety in your photos</li>
@@ -121,13 +121,13 @@ const BlogPostFortDesotoElopement = () => {
   </p>
 
   <p className="mb-6">
-    Whether it's barefoot moments in the sand or epic silhouettes at the old fort, each frame captures more than a scene—it captures the feeling of being there. It’s the kind of place where your gallery won’t look like anyone else’s, and your photos become part of the experience, not just a record of it.
+    Whether it's barefoot moments in the sand or epic silhouettes at the old fort, each frame captures more than a scene, it captures the feeling of being there. It’s the kind of place where your gallery won’t look like anyone else’s, and your photos become part of the experience, not just a record of it.
   </p>
 
   <h2 className="text-3xl font-light text-gray-900 mb-6">Extend the Magic Beyond the Shore</h2>
 
   <p className="mb-6">
-    The celebration doesn’t have to end with the last photo. The Tampa Bay area is full of places to continue the magic—whether you’re heading to a cozy dinner in St. Pete, exploring the art scene, or taking a romantic walk along the Tampa Riverwalk.
+    The celebration doesn’t have to end with the last photo. The Tampa Bay area is full of places to continue the celebration, whether you’re heading to a cozy dinner in St. Pete, exploring the art scene, or taking a romantic walk along the endless beaches.
   </p>
 
   <p className="mb-8">
@@ -147,28 +147,38 @@ const BlogPostFortDesotoElopement = () => {
   </div>
 
   <p className="text-lg text-gray-700 italic border-l-4 border-gray-300 pl-6 mt-12">
-    "Some love stories are too big for ballrooms—they belong to the breeze, the tides, and the open skies. A Fort De Soto elopement isn’t just a ceremony; it’s a celebration of freedom, love, and the beauty of choosing your own path."
+    "Some love stories are too big for ballrooms, they belong to the breeze, the tides, and the open skies. A Fort De Soto elopement isn’t just a ceremony; it’s a celebration of freedom, love, and the beauty of choosing your own path."
   </p>
 </div>
 
 
       {/* Navigation */}
-      <div className="flex justify-between items-center mt-16 pt-8 border-t border-gray-200">
-        <Link
-          to="/blog/anniversary-photoshoot-unforgettable"
-          className="text-gray-600 hover:text-gray-900 transition-colors flex items-center"
-        >
-          <span className="mr-2">←</span>
-          <span>Previous Post</span>
-        </Link>
-        <Link
-          to="/blog/2025-wedding-trends"
-          className="text-gray-600 hover:text-gray-900 transition-colors flex items-center"
-        >
-          <span>Next Post</span>
-          <span className="ml-2">→</span>
-        </Link>
-      </div>
+          <div className="flex justify-between items-center mt-16 pt-8 border-t border-gray-200">
+            <Link
+              to="/blog/wedding-prep-tampa-fl"
+              className="flex items-center text-gray-600 hover:text-gray-900 transition-colors"
+            >
+              <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+              </svg>
+              <div className="text-left">
+                <div className="text-sm">Previous</div>
+                <div className="font-medium">Wedding Prep Made Simple | The ULTIMATE How-To Guidey</div>
+              </div>
+            </Link>
+            <Link
+              to="/blog/2025-wedding-trends"
+              className="flex items-center text-gray-600 hover:text-gray-900 transition-colors text-right"
+            >
+              <div>
+                <div className="text-sm">Next</div>
+                <div className="font-medium">Top 2025 Wedding Trends That Will Blow You Away</div>
+              </div>
+              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
     </article>
   )
 }

@@ -5,7 +5,7 @@ const BlogPostRehearsalDinner = () => {
     <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       {/* Breadcrumb */}
       <nav className="mb-8">
-        <Link to="/blog" className="text-gray-600 hover:text-gray-900 transition-colors">
+        <Link to="/homeblog" className="text-gray-600 hover:text-gray-900 transition-colors">
           ← Back to Blog
         </Link>
       </nav>
@@ -13,9 +13,9 @@ const BlogPostRehearsalDinner = () => {
       {/* Category and Date */}
       <div className="mb-6">
         <span className="inline-block bg-gray-100 text-gray-600 px-3 py-1 text-sm font-medium rounded-full mb-4">
-          Elopements
+          Rehearsal Dinner
         </span>
-        <p className="text-gray-500 text-sm">Aug 31, 2023 • Written By Gorban Pixels</p>
+        <p className="text-gray-500 text-sm">Aug 31, 2025 • Written By Gorban Pixels</p>
       </div>
 
       {/* Title */}
@@ -26,33 +26,33 @@ const BlogPostRehearsalDinner = () => {
       {/* Hero Image Gallery */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
         <img
-          src="https://ik.imagekit.io/f9opvmhvz/Photo_82.PNG?updatedAt=1752110195192"
-          alt="Romantic rehearsal dinner setup"
+          src="https://ik.imagekit.io/f9opvmhvz/Photo_84.png?updatedAt=1766257263750"
+          alt="Romantic kiss by the couple"
           className="w-full h-64 object-cover rounded-lg"
         />
         <img
-          src="https://ik.imagekit.io/f9opvmhvz/Photo_83.PNG?updatedAt=1752110195532"
-          alt="Elegant dining atmosphere"
+          src="https://ik.imagekit.io/f9opvmhvz/Photo_83.png?updatedAt=1766257264294"
+          alt="Elegant atmosphere"
           className="w-full h-64 object-cover rounded-lg"
         />
         <img
-          src="https://ik.imagekit.io/f9opvmhvz/Photo_84.PNG?updatedAt=1752110194247"
+          src="https://ik.imagekit.io/f9opvmhvz/Photo_82.png?updatedAt=1766257265852"
           alt="Intimate celebration"
           className="w-full h-64 object-cover rounded-lg"
         />
         <img
-          src="https://ik.imagekit.io/f9opvmhvz/Photo_90.PNG?updatedAt=1752110192839"
-          alt="Beautiful venue details"
+          src="https://ik.imagekit.io/f9opvmhvz/Photo_140.png?updatedAt=1766257915005"
+          alt="Beautiful princess moment"
           className="w-full h-64 object-cover rounded-lg"
         />
         <img
-          src="https://ik.imagekit.io/f9opvmhvz/Photo_85.PNG?updatedAt=1752110192909"
+          src="https://ik.imagekit.io/f9opvmhvz/Photo_85.png?updatedAt=1766257914985"
           alt="Couple at rehearsal dinner"
           className="w-full h-64 object-cover rounded-lg"
         />
         <img
-          src="https://ik.imagekit.io/f9opvmhvz/Photo_89.PNG?updatedAt=1752110192733"
-          alt="Historic venue ambiance"
+          src="https://ik.imagekit.io/f9opvmhvz/Photo_89.png?updatedAt=1766257915039"
+          alt="The bride to be"
           className="w-full h-64 object-cover rounded-lg"
         />
       </div>
@@ -60,17 +60,17 @@ const BlogPostRehearsalDinner = () => {
       {/* Content */}
       <div className="prose prose-lg max-w-none">
         <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-         The Tampa Bay area, stretching from St. Pete and Clearwater to New Port Richey and Riverview offers a stunning blend of modern elegance and historic charm, making it the perfect backdrop for your rehearsal dinner or post-ceremony celebrations. This curated guide showcases some of our favorite locations, all seen through a creative, storytelling lens. Our photography packages include an optional Rehearsal Dinner add-on at a deeply discounted rate when booked alongside your wedding or elopement coverage; ideal for capturing candid, editorial style moments with your partner, family, and closest friends.
+         The Tampa Bay area, stretching from St. Pete and Clearwater to New Port Richey and Riverview offers a stunning blend of modern elegance and historic charm, making it the perfect backdrop for your rehearsal dinner or post-ceremony celebrations. This curated guide showcases some of our favorite locations, all seen through a creative, storytelling lens. Our photography packages include an optional Rehearsal Dinner add-on when booked alongside your wedding or elopement coverage; ideal for capturing candid, editorial style moments with your partner, family, and closest friends.
         </p>
 
         <h2 className="text-3xl font-light text-gray-900 mb-6">Why Have a Rehearsal Dinner Before Your Wedding or Elopement in Tampa</h2>
 
         <p className="mb-6">
-          Choosing to host a rehearsal dinner in Tampa before your wedding or elopement is a wonderful way to connect with family and friends who’ve come into town to celebrate. It’s more than just an extra opportunity for beautiful photos and it’s a chance to unwind, mingle, and ease into the excitement of the big day. Bringing everyone together the night before helps calm those pre-wedding jitters, walk through any final ceremony details, and make sure everyone feels included. Plus, it’s a heartfelt way to show appreciation to the people who’ve supported your journey. With the Tampa Bay's vibrant backdrop from waterfront views to historic downtown charm, a rehearsal dinner becomes an unforgettable part of your wedding weekend.
+          Choosing to host a rehearsal dinner in Tampa before your wedding or elopement is a wonderful way to connect with family and friends who’ve come into town to celebrate. It’s more than just an extra opportunity for beautiful photos and it’s a chance to unwind, mingle, and ease into the excitement of the big day. Bringing everyone together the night before helps calm those pre-wedding jitters, walk through any final ceremony details, and make sure everyone feels included. Plus, it’s a heartfelt way to show appreciation to the people who’ve supported your journey. With the Tampa Bay's vibrant backdrop from waterfront views to the downtown charm, a rehearsal dinner becomes an unforgettable part of your wedding weekend.
         </p>
 
         <p className="mb-8">
-          Now, let’s dive into why adding rehearsal dinner photography is a great idea and which Tampa venues offer the best ambiance and photo opportunities.
+          Now, let’s dive into why adding rehearsal dinner photography is a great idea and which venues offer the best ambiance and photo opportunities.
         </p>
 
         <h2 className="text-3xl font-light text-gray-900 mb-6">Why Hire a Photographer for Your Rehearsal Dinner</h2>
@@ -84,13 +84,13 @@ const BlogPostRehearsalDinner = () => {
             <strong>Capture Memorable Interactions:</strong> These are intimate moments with your nearest and dearest, especially loved ones who traveled. A pro ensures those connections are saved forever.
           </li>
           <li>
-            <strong>High–Quality Photos:</strong> Professional gear, lighting tricks, and angles make a big difference—your photos will look polished and beautiful.
+            <strong>High–Quality Photos:</strong> Professional gear, lighting tricks, and angles make a big difference, your photos will look polished and beautiful.
           </li>
           <li>
             <strong>Relaxed Atmosphere:</strong> With a photographer on-site, you and your guests can fully enjoy the evening without worrying about snapping pics yourselves.
           </li>
           <li>
-            <strong>Diverse Image Selection:</strong> From candid chats and toasts to editorial style shots of the couple—plus a chance to strike a special outfit—your gallery will be rich and varied.
+            <strong>Diverse Image Selection:</strong> From candid chats and toasts to editorial style shots of the couple plus a chance to strike a special outfit, your gallery will be rich and varied.
           </li>
           <li>
             <strong>Preparation for the Big Day:</strong> It’s a great rehearsal for the big day, letting you get comfortable in front of the camera and familiar with the photographer’s style.
@@ -107,7 +107,7 @@ const BlogPostRehearsalDinner = () => {
         <h2 className="text-3xl font-light text-gray-900 mb-6">Tampa Venues for Rehearsal Dinners with Exceptional Photo Backdrops</h2>
 
         <p className="mb-8">
-          Here are a few top picks from a photographer’s artistic perspective—each with its own charm, atmosphere, and backdrop perfect for storytelling images. Whether you're drawn to coastal views, historic architecture, or modern elegance, these rehearsal dinner spots across Tampa Bay provide unforgettable settings for candid, meaningful moments.
+          Here are a few top picks from a photographer’s artistic perspective, each with its own charm, atmosphere, and backdrop perfect for storytelling images. Whether you're drawn to coastal views, architecture, or modern elegance, these rehearsal dinner spots across Tampa Bay provide unforgettable settings for candid, meaningful moments.
         </p>
 
         <div className="space-y-8 mb-12">
@@ -121,21 +121,21 @@ const BlogPostRehearsalDinner = () => {
           <div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">The Vault</h3>
             <p className="text-gray-700">
-              Nestled inside the historic Floridan Palace Hotel, this space features ornate ceilings, vintage columns, and marble finishes—a luxurious backdrop perfect for classic, elegant imagery.
+              Nestled inside the Floridan Palace Hotel, this space features ornate ceilings, vintage columns, and marble finishes, a luxurious backdrop perfect for classic, elegant imagery.
             </p>
           </div>
 
           <div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Rusty Pelican</h3>
             <p className="text-gray-700">
-              Perched over the water on Davis Islands, this restaurant offers panoramic bay views and beautiful sunset light—perfect for dramatic, golden-hour photos.
+              Perched over the water on Davis Islands, this restaurant offers panoramic bay views and beautiful sunset light, perfect for dramatic, golden-hour photos.
             </p>
           </div>
 
           <div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Oxford Exchanget</h3>
             <p className="text-gray-700">
-              A refined, literary-inspired space with a bright café, airy lounge, and courtyard gardens—ideal for capturing intimate, editorial moments in a classy yet relaxed setting.
+              A refined, literary-inspired space with a bright café, airy lounge, and courtyard gardens which is ideal for capturing intimate, editorial moments in a classy yet relaxed setting.
             </p>
           </div>
 
@@ -149,7 +149,7 @@ const BlogPostRehearsalDinner = () => {
           <div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">The Urban Stillhouse</h3>
             <p className="text-gray-700">
-              This sophisticated, rustic venue blends warm wood interiors, craft cocktails, and a refined industrial charm—ideal for families who appreciate elevated dining in a cozy, modern setting.
+              This sophisticated, rustic venue blends with wood interiors, craft cocktails, and a refined industrial charm that is ideal for families who appreciate elevated dining in a cozy, modern setting.
             </p>
           </div>
         </div>
@@ -157,13 +157,13 @@ const BlogPostRehearsalDinner = () => {
         {/* Additional Image Gallery */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
           <img
-            src="https://ik.imagekit.io/f9opvmhvz/Photo_87.PNG?updatedAt=1752110197976"
-            alt="Venue interior design"
+            src="https://ik.imagekit.io/f9opvmhvz/Photo_141.png?updatedAt=1766258179422"
+            alt="Couples conversate"
             className="w-full h-80 object-cover rounded-lg"
           />
           <img
-            src="https://ik.imagekit.io/f9opvmhvz/Photo_88.PNG?updatedAt=1752110197905"
-            alt="Restaurant atmosphere"
+            src="https://ik.imagekit.io/f9opvmhvz/Photo_88.png?updatedAt=1766258179295"
+            alt="Couples conversate 2"
             className="w-full h-80 object-cover rounded-lg"
           />
         </div>
@@ -172,28 +172,28 @@ const BlogPostRehearsalDinner = () => {
           <div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Ulele</h3>
             <p className="text-gray-700">
-              Set along the Hillsborough River, Ulele offers lush tropical landscaping, historic architecture, and native-flavor cuisine—great for warm, natural-light moments.
+              Set along the Hillsborough River, Ulele offers lush tropical landscaping, and native flavor cuisine that is great for warm, natural-light moments.
             </p>
           </div>
 
           <div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Tampa Garden Club</h3>
             <p className="text-gray-700">
-              A hidden gem with verdant gardens, moss-draped oaks, and charming pathways—ideal for romantic, intimate photos in full foliage.
+              A hidden gem with verdant gardens, moss-draped oaks, and charming pathways brining a romantic, and intimate moment for photos in full foliage.
             </p>
           </div>
 
           <div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Pinellas Ale Works</h3>
             <p className="text-gray-700">
-              This laid-back craft brewery features industrial charm, local art, and a dog friendly beer garden—perfect for couples who want a relaxed, fun rehearsal dinner with good brews and great company.
+              This laid-back craft brewery features industrial charm, local art, and a dog friendly garden, perfect for couples who want a relaxed, fun rehearsal dinner with good food and great company.
             </p>
           </div>
 
           <div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3"> Rooftop 360</h3>
             <p className="text-gray-700">
-              Perched above Clearwater Beach, Rooftop 360 offers sweeping coastal views, fresh ocean air, and a modern open-air setting, ideal for a rehearsal dinner that ends with sunset toasts and panoramic photo ops.
+              Perched above Clearwater Beach, Rooftop 360 offers sweeping coastal views, fresh ocean air, and a modern open air setting, ideal for a rehearsal dinner that ends with sunset toasts and panoramic photo ops.
             </p>
           </div>
 
@@ -207,7 +207,7 @@ const BlogPostRehearsalDinner = () => {
           <div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Brio Tuscan Grille</h3>
             <p className="text-gray-700">
-              Brio offers classic Tuscan inspired charm with both private indoor and patio dining options, ideal for a rehearsal dinner that blends timeless ambiance with flavorful Italian dishes and handcrafted cocktails. Its central location makes it easy for guests and perfect for relaxed, photo worthy moments.
+              Brio offers classic Tuscan inspired charm with both private indoor and patio dining options, perfect for a rehearsal dinner that blends timeless ambiance with flavorful Italian dishes. Its central location makes it easy for guests and perfect for relaxed, photo worthy moments.
             </p>
           </div>
         </div>
@@ -215,12 +215,12 @@ const BlogPostRehearsalDinner = () => {
         <h2 className="text-3xl font-light text-gray-900 mb-6">Catering & Drinks for Your Rehearsal Dinner in Tampa</h2>
 
         <p className="mb-8">
-          If your venue doesn’t provide catering, here are some Tampa recommendations: La Segunda Bakery for fresh bites, Tampa Bay Brewing Company for craft beer, or Rolling Oats for gourmet food trucks—perfect for creating a local, personalized food experience.
+          If your venue doesn’t offer catering, here are some Tampa recommendations: La Segunda Bakery for fresh bites, Amici's Catered Cuisine for a gourmet cuisine, or Rolling Oats for gourmet food trucks which is perfect for creating a local, personalized food experience.
         </p>
 
         <div className="bg-gray-50 p-8 rounded-lg text-center">
           <p className="text-gray-700 mb-6">
-            Want to include rehearsal dinner photography in your Tampa wedding package? I’d love to help you capture those candid moments with the people who matter most.
+            Want to include rehearsal dinner photography in your Tampa wedding package? We’d love to help you capture those candid moments with the people who matter most.
           </p>
           <Link
             to="/contact"

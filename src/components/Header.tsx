@@ -10,13 +10,7 @@ const Header = () => {
     { name: 'Pricing', href: '/investment' },
     { name: 'Portfolio', href: '/portfolio' },
     { name: 'Contact', href: '/contact' },
-    { name: 'Blog', href: '/blog' },
-    /*{ name: 'For Couples', href: '#couples' },*/
-    { name: 'Resources', href: '#resources' },
-    { name: 'Elopement Packages', href: '#elopement' },
-    /*{ name: 'North Florida Vendors', href: '#vendors' },
-    { name: 'Fun Couples Quiz', href: '#quiz' },*/
-    { name: 'Testimonials', href: '#testimonials' }
+    { name: 'Blog', href: '/blog' }
   ]
 
   return (
