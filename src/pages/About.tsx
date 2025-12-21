@@ -18,10 +18,10 @@ const About = () => {
 
   const blogPosts = [
     {
-      title: "Elope in Tampa FL | The ULTIMATE How-To Guide",
-      excerpt: "A thoughtful guide to eloping in Tampa—featuring the best micro-venues, BnBs, and planning tips for a relaxed and romantic day.",
+      title: "Wedding Prep Made Simple | The ULTIMATE How-To Guide",
+      excerpt: "A thoughtful guide to wedding planning in Tampa, featuring the best venues, BnBs, and planning tips for a relaxed and romantic day.",
       image: "https://ik.imagekit.io/f9opvmhvz/Photo_17.png?updatedAt=1766124581703",
-      href: "/blog/elope-in-tampa-fl"
+      href: "/blog/wedding-prep-tampa-fl"
     },
     {
       title: "Top 2025 Wedding Trends That Will Blow You Away",
