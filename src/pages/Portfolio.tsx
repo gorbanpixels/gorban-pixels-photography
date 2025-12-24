@@ -30,6 +30,12 @@ const Portfolio = () => {
       category: "Engagement",
       image: "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/F4460647-D037-4772-B900-ED7C5C5097D7.PNG",
       slug: "/portfolio/Kathy_Jacob_Eng"
+    },
+    {
+      title: "Chloe & Ryan",
+      category: "Engagement",
+      image: "https://ik.imagekit.io/f9opvmhvz/Chloe%20&%20Ryan/4E36BD47-CF01-4154-AB7D-4DBD333BC1C3.PNG",
+      slug: "/portfolio/Chloe_Ryan_Eng"
     }
   ]
 
