@@ -7,16 +7,15 @@ const Kathy_Jacob_Eng = () => {
   const coverImage = "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/F4460647-D037-4772-B900-ED7C5C5097D7.PNG"
 
   const gallery = [
-    { url: "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/5F1A20CE-D659-46ED-9CD9-E44E837D0E2F.PNG", alt: "Mary and Chris before 1" },
-    { url: "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/B4CE17C1-38D2-4E85-8C14-1957DB67D876.PNG", alt: "Mary and Chris before 2" },
-    { url: "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/A2A83962-CD87-493A-B7EC-A10E96A65764.PNG", alt: "Mary and Chris before 3" },
-    { url: "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/D6D9B807-88E3-4144-86C6-368F22AEE1EC.PNG", alt: "Mary and Chris before 4" },
-    { url: "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/1440520F-6F12-4F7E-92BE-1C013616B8DE.PNG", alt: "Mary and Chris before 5" },
-    { url: "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/A589EE30-70E8-485C-8C7A-D4F44B4D8F39.PNG", alt: "Mary and Chris before 6" },
-    { url: "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/D2D7506E-CF20-4C30-AEA2-6C4B93523794.PNG", alt: "Mary and Chris before 3" },
-    { url: "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/E4CCD52F-18DD-49A6-8607-53CFB03BF0E2.PNG", alt: "Mary and Chris before 1" },
-    { url: "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/A308DDE2-6A39-404D-A75C-8458C2517656.PNG", alt: "Mary and Chris before 2" },
-    { url: "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/A589EE30-70E8-485C-8C7A-D4F44B4D8F39.PNG", alt: "Mary and Chris before 3" },
+    { url: "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/5F1A20CE-D659-46ED-9CD9-E44E837D0E2F.PNG", alt: "Kathy and Jacob  1" },
+    { url: "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/B4CE17C1-38D2-4E85-8C14-1957DB67D876.PNG", alt: "Kathy and Jacob 2" },
+    { url: "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/A2A83962-CD87-493A-B7EC-A10E96A65764.PNG", alt: "Kathy and Jacob 3" },
+    { url: "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/D6D9B807-88E3-4144-86C6-368F22AEE1EC.PNG", alt: "Kathy and Jacob 4" },
+    { url: "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/1440520F-6F12-4F7E-92BE-1C013616B8DE.PNG", alt: "Kathy and Jacob 5" },
+    { url: "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/A589EE30-70E8-485C-8C7A-D4F44B4D8F39.PNG", alt: "Kathy and Jacob 6" },
+    { url: "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/D2D7506E-CF20-4C30-AEA2-6C4B93523794.PNG", alt: "Kathy and Jacob 7" },
+    { url: "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/E4CCD52F-18DD-49A6-8607-53CFB03BF0E2.PNG", alt: "Kathy and Jacob 8" },
+    { url: "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/A308DDE2-6A39-404D-A75C-8458C2517656.PNG", alt: "Kathy and Jacob 9" }
   ]
 
 
@@ -97,14 +96,12 @@ const Kathy_Jacob_Eng = () => {
 
           <div className="space-y-6 text-gray-700 leading-relaxed text-lg">
             <p>
-              Over the past five years, our team has been trusted to transform Best Buy locations across the country with high-quality carpet tile installations that meet strict corporate specifications. What started as a single project quickly turned into an ongoing partnership, as store managers and project leads saw our attention to detail, reliability, and ability to keep projects on schedule without disrupting daily operations.
+              Kathy and Jacob’s engagement session on Sand Key Beach was simple, romantic, and full of genuine moments. With the soft Gulf breeze and golden light around them, they spent the evening laughing, walking the shoreline, and soaking in the view.
             </p>
             <p>
-              From Pennsylvania and Virginia to Minnesota, New York, New Jersey, and Ohio, we’ve successfully completed flooring installations in more than 26 Best Buy locations nationwide. Each store comes with its own layout challenges and traffic patterns, but our crews are experienced in working around fixtures, displays, and tight timelines—delivering clean, precise installations that align perfectly with Best Buy’s brand standards.
+              From intimate portraits to candid smiles in the waves, every photo felt effortless and true to who they are. Sand Key’s calm shoreline made the perfect backdrop for a timeless engagement session.
             </p>
-            <p>
-              Whether it’s a complete sales floor refresh or targeted remodel work, our focus remains the same: durable, professional carpet tile installations that look great on day one and stand up to heavy retail traffic for years to come.
-            </p>
+
           </div>
         </div>
       </section>
