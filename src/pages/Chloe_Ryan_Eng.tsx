@@ -8,7 +8,6 @@ const Chloe_Ryan_Eng = () => {
 
   const gallery = [
     { url: "https://ik.imagekit.io/f9opvmhvz/Chloe%20&%20Ryan/21F7A56F-71F8-40C5-B9AF-9AABBBB7C0A0.PNG", alt: "Chloe and Ryan 1" },
-    { url: "https://ik.imagekit.io/f9opvmhvz/Chloe%20&%20Ryan/0E1513E9-8C51-4BC7-886E-582BDAE0B3CC.PNG", alt: "Chloe and Ryan 2" },
     { url: "https://ik.imagekit.io/f9opvmhvz/Chloe%20&%20Ryan/4E36BD47-CF01-4154-AB7D-4DBD333BC1C3.PNG", alt: "Chloe and Ryan 3" },
     { url: "https://ik.imagekit.io/f9opvmhvz/Chloe%20&%20Ryan/DED236CE-F281-4578-9727-28B6471FC0C9.PNG", alt: "Chloe and Ryan 4" },
     { url: "https://ik.imagekit.io/f9opvmhvz/Chloe%20&%20Ryan/3FB83D19-DBF0-4F6C-86F9-6DD38B4999AA.PNG", alt: "Chloe and Ryan 5" },
@@ -61,14 +60,14 @@ const Chloe_Ryan_Eng = () => {
           <div className="order-2 lg:order-2 text-center lg:text-left">
             <div className="mb-8">
               <h1 className="text-4xl md:text-5xl font-light text-gray-800 mb-6 tracking-wide">
-                Kathy & Jacob
+                Chloe & Ryan
               </h1>
               <div className="w-16 h-px bg-gray-400 mx-auto lg:mx-0 mb-6"></div>
               <p className="text-sm text-gray-600 uppercase tracking-widest mb-2">
                 Engagement
               </p>
               <p className="text-sm text-gray-600 uppercase tracking-widest">
-                Sand Key Beach
+                Clearwater Beach
               </p>
             </div>
           </div>
@@ -94,10 +93,10 @@ const Chloe_Ryan_Eng = () => {
 
           <div className="space-y-6 text-gray-700 leading-relaxed text-lg">
             <p>
-              Kathy and Jacob’s engagement session on Sand Key Beach was simple, romantic, and full of genuine moments. With the soft Gulf breeze and golden light around them, they spent the evening laughing, walking the shoreline, and soaking in the view.
+              Chloe and Ryans’s engagement session at Clearwater Beach featured soft, natural tones with an emphasis on crisp, well-balanced photos. The session focused on clean light, true-to-color edits, and sharp details while maintaining a relaxed, romantic feel.
             </p>
             <p>
-              From intimate portraits to candid smiles in the waves, every photo felt effortless and true to who they are. Sand Key’s calm shoreline made the perfect backdrop for a timeless engagement session.
+              With their wedding planned for November, the session captured both connection and movement through a mix of natural portraits and candid moments along the shoreline. Clearwater Beach provided a bright yet controlled backdrop that allowed the photography to remain timeless, polished, and free of washed-out highlights.
             </p>
 
           </div>
@@ -111,7 +110,7 @@ const Chloe_Ryan_Eng = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-4">
-              Before Images
+              Gallery
             </h2>
             
             <div className="w-16 h-px bg-gray-400 mx-auto mt-6"></div>
