@@ -1,51 +1,37 @@
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
+
 const Portfolio = () => {
-  /*const portfolioItems = [
-    {
-      title: "Mary + Chris",
-      category: "Engagement",
-      image: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-    },
-    {
-      title: "Zoe + Josh 1908",
-      category: "Grand Wedding",
-      image: "https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-    },
-    {
-      title: "Elorah + Stevie",
-      category: "Elopement Silver Springs",
-      image: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-    },
-    {
-      title: "Danielle + Matt",
-      category: "Courthouse + Downtown Elopement",
-      image: "https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-    },
-    {
-      title: "Jess + Noah",
-      category: "Beach Sunrise Proposal",
-      image: "https://images.unsplash.com/photo-1537633552985-df8429e8048b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-    },
-    {
-      title: "Samantha + Kobe",
-      category: "Wedding",
-      image: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-    },
-    {
-      title: "Ashley + Zach +",
-      category: "Family Session",
-      image: "https://images.unsplash.com/photo-1516914943479-89db7d9ae7f2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-    },
-    {
-      title: "Amanda + Chase",
-      category: "Baha Wedding",
-      image: "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-    },
-    {
-      title: "Jenett + Nate",
-      category: "Casa Marina",
-      image: "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+  const [selectedImage, setSelectedImage] = useState<number | null>(null)
+
+  const openLightbox = (index: number) => {
+    setSelectedImage(index)
+  }
+
+  const closeLightbox = () => {
+    setSelectedImage(null)
+  }
+
+  const nextImage = () => {
+    if (selectedImage !== null && selectedImage < portfolioItems.length - 1) {
+      setSelectedImage(selectedImage + 1)
     }
-  ]*/
+  }
+
+  const prevImage = () => {
+    if (selectedImage !== null && selectedImage > 0) {
+      setSelectedImage(selectedImage - 1)
+    }
+  }
+
+  const portfolioItems = [
+    {
+      title: "Kathy & Jacob",
+      category: "Engagement",
+      image: "https://ik.imagekit.io/f9opvmhvz/Kathy%20&%20Jacob%20Engagement/F4460647-D037-4772-B900-ED7C5C5097D7.PNG",
+      slug: "/portfolio/Kathy_Jacob_Eng"
+    }
+  ]
 
   return (
     <div className="min-h-screen bg-white">
@@ -89,31 +75,62 @@ const Portfolio = () => {
       </section>
 
       {/* Portfolio Grid */}
-      {/*<section className="pb-20">
+      <section className="pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
-            {portfolioItems.map((item, index) => (
-              <div key={index} className="group text-center">
-                <div className="relative h-80 mb-6 overflow-hidden">
-                  <img
-                    src={item.image}
-                    alt={item.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <div>
-                  <h3 className="text-lg font-medium text-gray-900 mb-2 uppercase tracking-wide">
-                    {item.title}
-                  </h3>
-                  <p className="text-sm text-gray-600 uppercase tracking-wide">
-                    {item.category}
-                  </p>
-                </div>
-              </div>
-            ))}
+            {portfolioItems.map((item, index) => {
+              if (item.slug) {
+                // If item has a gallery page, link to it
+                return (
+                  <Link key={index} to={item.slug} className="group text-center cursor-pointer">
+                    <div className="relative h-80 mb-6 overflow-hidden">
+                      <img
+                        src={item.image}
+                        alt={item.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-medium text-gray-900 mb-2 uppercase tracking-wide">
+                        {item.title}
+                      </h3>
+                      <p className="text-sm text-gray-600 uppercase tracking-wide">
+                        {item.category}
+                      </p>
+                    </div>
+                  </Link>
+                )
+              } else {
+                // If no gallery page, open in lightbox
+                return (
+                  <button
+                    key={index}
+                    type="button"
+                    onClick={() => openLightbox(index)}
+                    className="group text-center cursor-pointer w-full"
+                  >
+                    <div className="relative h-80 mb-6 overflow-hidden">
+                      <img
+                        src={item.image}
+                        alt={item.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-medium text-gray-900 mb-2 uppercase tracking-wide">
+                        {item.title}
+                      </h3>
+                      <p className="text-sm text-gray-600 uppercase tracking-wide">
+                        {item.category}
+                      </p>
+                    </div>
+                  </button>
+                )
+              }
+            })}
           </div>
         </div>
-      </section>*/}
+      </section>
 
       {/* Instagram Feed Section */}
       <section className="bg-gray-900 py-16 text-white">
@@ -122,26 +139,23 @@ const Portfolio = () => {
             <h3 className="text-2xl font-light mb-8">
               Find us on Instagram{' '}
               <a
-                href="https://www.instagram.com/gorbanpixels/"
+                href="https://instagram.com/gorbanpixels"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-gray-300 transition-colors"
               >
-                @gorbanpixels
+                @GorbanPixels
               </a>
             </h3>
-            
           </div>
-          
 
           {/* Instagram Grid */}
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-1 mb-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-1 mb-8">
             {[
               "https://ik.imagekit.io/f9opvmhvz/Photo_56.png",
               "https://ik.imagekit.io/f9opvmhvz/Photo_49.png",
-              "https://ik.imagekit.io/f9opvmhvz/Photo_50.png",
-              "https://ik.imagekit.io/f9opvmhvz/Photo_92.png",
-              "https://ik.imagekit.io/f9opvmhvz/Photo_93.png"
+              "https://ik.imagekit.io/f9opvmhvz/Photo_93.png",
+              "https://ik.imagekit.io/f9opvmhvz/Photo_92.png"
             ].map((image, index) => (
               <div key={index} className="relative h-48 overflow-hidden">
                 <a href="https://instagram.com/gorbanpixels" target="_blank" rel="noopener noreferrer">
@@ -155,17 +169,73 @@ const Portfolio = () => {
             ))}
           </div>
 
-          {/* Get In Touch Button */}
-          <div className="text-center">
-            <a
-              href="/contact"
-              className="inline-block border border-white text-white px-8 py-3 text-sm font-medium uppercase tracking-wide hover:bg-white hover:text-gray-900 transition-colors"
-            >
-              Get In Touch
-            </a>
-          </div>
+      
         </div>
       </section>
+
+      {/* Lightbox */}
+      {selectedImage !== null && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-95 z-50 flex items-center justify-center p-4"
+          onClick={closeLightbox}
+        >
+          {/* Close Button */}
+          <button
+            type="button"
+            onClick={closeLightbox}
+            className="absolute top-4 right-4 text-white hover:text-gray-300 z-10"
+            aria-label="Close"
+          >
+            <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+
+          {/* Previous Button */}
+          {selectedImage > 0 && (
+            <button
+              type="button"
+              onClick={(e) => { e.stopPropagation(); prevImage(); }}
+              className="absolute left-4 text-white hover:text-gray-300 z-10"
+              aria-label="Previous image"
+            >
+              <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+              </svg>
+            </button>
+          )}
+
+          {/* Next Button */}
+          {selectedImage < portfolioItems.length - 1 && (
+            <button
+              type="button"
+              onClick={(e) => { e.stopPropagation(); nextImage(); }}
+              className="absolute right-4 text-white hover:text-gray-300 z-10"
+              aria-label="Next image"
+            >
+              <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          )}
+
+          {/* Image */}
+          <div className="max-w-7xl w-full h-full flex flex-col items-center justify-center" onClick={(e) => e.stopPropagation()}>
+            <img
+              src={portfolioItems[selectedImage].image}
+              alt={portfolioItems[selectedImage].title}
+              className="max-w-full max-h-[85vh] object-contain"
+            />
+            <div className="text-white text-center mt-6">
+              <h3 className="text-2xl font-light mb-2">{portfolioItems[selectedImage].title}</h3>
+              <p className="text-sm text-gray-300 uppercase tracking-wide">{portfolioItems[selectedImage].category}</p>
+              <p className="text-sm text-gray-400 mt-2">
+                {selectedImage + 1} / {portfolioItems.length}
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }

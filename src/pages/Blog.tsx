@@ -164,13 +164,12 @@ const Blog = () => {
           </div>
 
           {/* Instagram Grid */}
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-1 mb-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-1 mb-8">
             {[
-              "https://ik.imagekit.io/f9opvmhvz/Photo_142.png",
+              "https://ik.imagekit.io/f9opvmhvz/Photo_140.png",
               "https://ik.imagekit.io/f9opvmhvz/Photo_144.png",
               "https://ik.imagekit.io/f9opvmhvz/Photo_143.png",
-              "https://ik.imagekit.io/f9opvmhvz/Photo_85.png",
-              "https://ik.imagekit.io/f9opvmhvz/Photo_140.png"
+              "https://ik.imagekit.io/f9opvmhvz/Photo_85.png"
             ].map((image, index) => (
               <div key={index} className="relative h-48 overflow-hidden">
                 <a href="https://instagram.com/gorbanpixels" target="_blank" rel="noopener noreferrer">

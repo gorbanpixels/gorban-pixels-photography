@@ -8,6 +8,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Investment from './pages/Investment'
 import Portfolio from './pages/Portfolio'
+import Kathy_Jacob_Eng from './pages/Kathy_Jacob_Eng'
 import Blog from './pages/Blog'
 import BlogPost2025WeddingTrends from './pages/BlogPost2025WeddingTrends'
 import BlogPostFloridaBotanicalGarden from './pages/BlogPostFloridaBotanicalGarden'
@@ -31,6 +32,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/investment" element={<Investment />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/portfolio/Kathy_Jacob_Eng" element={<Kathy_Jacob_Eng />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/homeblog" element={<HomeBlog />} />
           <Route path="/blog/2025-wedding-trends" element={<BlogPost2025WeddingTrends />} />
