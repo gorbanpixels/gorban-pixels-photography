@@ -11,8 +11,7 @@ const Chloe_Ryan_Eng = () => {
     { url: "https://ik.imagekit.io/f9opvmhvz/Chloe%20&%20Ryan/4E36BD47-CF01-4154-AB7D-4DBD333BC1C3.PNG", alt: "Chloe and Ryan 3" },
     { url: "https://ik.imagekit.io/f9opvmhvz/Chloe%20&%20Ryan/DED236CE-F281-4578-9727-28B6471FC0C9.PNG", alt: "Chloe and Ryan 4" },
     { url: "https://ik.imagekit.io/f9opvmhvz/Chloe%20&%20Ryan/3FB83D19-DBF0-4F6C-86F9-6DD38B4999AA.PNG", alt: "Chloe and Ryan 5" },
-    { url: "https://ik.imagekit.io/f9opvmhvz/Chloe%20&%20Ryan/FD2FA002-7B66-411C-8609-1764C6437153.PNG", alt: "Chloe and Ryan 6" },
-    { url: "https://ik.imagekit.io/f9opvmhvz/Chloe%20&%20Ryan/D6492226-93D7-4AFA-8846-3434DB2C88F61.PNG?updatedAt=1766604750149", alt: "Chloe and Ryan 7" }
+    { url: "https://ik.imagekit.io/f9opvmhvz/Chloe%20&%20Ryan/FD2FA002-7B66-411C-8609-1764C6437153.PNG", alt: "Chloe and Ryan 6" }
   ]
 
 
